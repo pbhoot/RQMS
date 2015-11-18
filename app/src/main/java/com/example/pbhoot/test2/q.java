@@ -20,7 +20,7 @@ public class q extends ListActivity
     // This is the Adapter being used to display the list's data
     SimpleCursorAdapter mAdapter;
 
-    static final String[] qData = new String[6];
+    static final String[] qData = new String[];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
