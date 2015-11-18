@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:text="@string/status"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/TextView01"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:id="@+id/TextView2"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:text="@string/size4"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:id="@+id/TextView4"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:text="@string/size6"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:id="@+id/TextView6"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:text="@string/size7"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:id="@+id/TextView7"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:text="@string/total"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:id="@+id/TextView01"
+        />
+
+    <EditText
+        android:id="@+id/token_no"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/token_no"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/phone_no"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_no"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/size"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/size"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/wait_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/wait_time"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/notes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/notes"
+        android:inputType="text" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button android:id="@+id/reg_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:onClick="q_add"
+        android:text="Add" />
+
+    <Button android:id="@+id/reg_clear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:onClick="clear"
+        android:text="Clear" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RQMS</string>
+    <string name="title_activity_reg">ADD TO QUEUE</string>
+    <string name="token_no">Token Number</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="size">Party size</string>
+    <string name="wait_time">Est. Wait time</string>
+    <string name="name">Name</string>
+    <string name="notes">Notes</string>
+    <string name="status">Current Status</string>
+    <string name="newline"> </string>
+    <string name="size2">2- </string>
+    <string name="size4">4- </string>
+    <string name="size6">6- </string>
+    <string name="size7">7+- </string>
+    <string name="total">Total </string>
+
+
+</resources>
